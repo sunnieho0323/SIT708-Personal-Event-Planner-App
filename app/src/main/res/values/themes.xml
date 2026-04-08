@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PersonalEventPlannerApp2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.PersonalEventPlannerApp2" parent="Base.Theme.PersonalEventPlannerApp2">
+    </style>
+    <style name="MyTimePickerTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorPrimary">#000000</item>
+
+        <item name="colorAccent">#6200EE</item>
+
+        <item name="android:buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
+
+        <item name="android:textColorPrimaryInverse">#FFFFFF</item>
+    </style>
+</resources>
